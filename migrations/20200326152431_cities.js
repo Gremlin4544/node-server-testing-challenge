@@ -1,7 +1,7 @@
 exports.up = function(knex) {
     return knex.schema
     .createTable('cities', tbl => {
-        tbl.increment();
+        tbl.increments();
 
         tbl
         .string('city', 128)
