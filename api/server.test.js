@@ -49,11 +49,11 @@ describe('GET /cities', () => {
   });
 
   // should return array of city objects
-  it('should return array of city objects', async () => {
-    const response = await request(server).get('/cities');
+//   it('should return array of city objects', async () => {
+//     const response = await request(server).get('/cities');
 
-    if (response.body.length > 0) {
-      expect(response.body[0]).toHaveProperty('city');
-    }
-  });
+//     if (response.body.length > 0) {
+//       expect(response.body[0]).toHaveProperty('city');
+//     }
+//   });
 });
